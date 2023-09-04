@@ -1032,13 +1032,13 @@ footer>.Footer_container{
     }
     .button>button {
         position: absolute;
-        right: 80px;
+        right: 60px;
         top: 30px;
     }
     i.fa-bars{
         display: block;
         position: absolute;
-        right: 50px;
+        right: 30px;
         font-size: 24px;
         top: 40px;
     }
@@ -1053,13 +1053,63 @@ footer>.Footer_container{
         }
         .right-2>.right-2-in>.content {
             display: flex;
-            width: 80%;
-            margin-left: 20px
+            width: 64%;
+            margin-left: 60px
             ;
+        }
+        .container-2>.container-2-in>.left-2>.left-2-in>.wrapper {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            right: 0px;
+        }
+        .home-demo .item {
+            background-color: white;
+            box-shadow: 2px 2px 15px lightgray;
+            width: 250px;
+            padding: 5.5px;
+            border-radius: 20px;
+            border: none;
+            display: flex;
+            justify-content: space-around;
         }
         .buttons-2>.button-2 {
             background-color: #f9c935;
             margin-left: 30px;
             margin-top: 50px;
         }
-}
+        .Last_section>.Last_section_in>.Last_right>.Images_Last {
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 250px;
+    height: 600px;
+        }
+        footer > .Footer_container > .in-Footer>.Foot_3>ul {
+            height: 50px;
+            display: flex;
+            list-style-type: none;
+            flex-direction: row;
+            width: 340px;
+            font-size: 20px;
+            justify-content: space-between;
+        }
+        footer > .Footer_container > .in-Footer>.Foot_4>ul {
+            height: 50px;
+            display: flex;
+            list-style-type: none;
+            flex-direction: row;
+            width: 340px;
+            font-size: 20px;
+            justify-content: space-between;
+        }
+        .home-demo{
+            margin: 50px auto 0px auto;
+            width: 70%;
+            display: flex;
+            justify-content: center;
+        }
+
+
+    }
